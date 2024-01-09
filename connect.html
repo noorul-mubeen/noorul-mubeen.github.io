@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <style>
+        .menu {
+            background-color: rgb(123, 203, 168);
+
+        }
+
+        button {
+            border: none;
+            color: white;
+            background-color: rgb(203, 99, 29);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 25px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+            margin: 0;
+        }
+
+        h1 {
+            background-color: rgb(203, 99, 29, 0.7);
+        }
+
+        h2 {
+            background-color: rgb(203, 99, 29, 0.5)
+        }
+
+        h3 {
+            background-color: rgb(203, 99, 29, 0.3);
+        }
+
+        input {
+            border-radius: 20px;
+        }
+
+        input[type=submit] {
+            width: 100px;
+            height: 30px;
+            color: white;
+            background-color: rgb(203, 99, 29);
+            font-size: medium;
+
+        }
+
+        h1 {
+            background-color: rgb(203, 99, 29, 0.7);
+        }
+
+        h2 {
+            background-color: rgb(203, 99, 29, 0.55);
+        }
+
+        body {
+            background-color: #dbefdc;
+            font-family: Georgia, serif;
+        }
+    </style>
+
+    <title>For Services</title>
+</head>
+
+
+
+<body>
+    <div class="menu">
+        <a href="home.html"><button type="button">Home</button></a>
+    </div>
+    <h1>Connect with us for Services</h1>
+    <b><br></b>
+    <h2>Services Offered:</h2>
+    <br><br><br>
+    <p>What services do you want to avail:</p>
+    <input type="checkbox" id="web" name="web" value="web-design">
+    <label for="web">Website Design</label><br>
+    <input type="checkbox" id="app" name="app_dev" value="application-development">
+    <label for="app">Multi-threaded Application using C/C++ Development</label><br>
+    <input type="checkbox" id="iot" name="iot_device">
+    <label for="iot">IOT based Device Development</label>
+    <br><br><br>
+    <h2>Viewer Info:</h2>
+    <br><br><br>
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="eg. John"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="eg. Doe"><br><br>
+        <p>Gender:</p>
+        <input type="radio" id="Male" name="gender" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <label for="Female">Female</label><br>
+        <input type="radio" id="others" name="gender" value="Other">
+        <label for="others">Other</label><br><br>
+        <label for="occup">Occupation:</label>
+        <select name="occupation" id="occup">
+            <option value="select">Select a department</option>
+            <option value="hr">Human Resources Manager</option>
+            <option value="sales">Sales</option>
+            <option value="analyst">Business Analyst</option>
+            <option value="accounts">Accountant</option>
+            <option value="customer_service">Customer Service Representative</option>
+            <option value="finance">Financial Management</option>
+            <option value="marketing">Marketing</option>
+            <option value="product">Product Manager</option>
+            <option value="coo">Chief Operating Officer</option>
+            <option value="others">Other</option>
+
+        </select>
+        <br><br><br>
+
+
+
+        <h2>Organization Info</h2>
+
+        <br><br><br>
+        <label for="comp_email">Company Name:</label>
+        <input type="text" id="comp_email" name="c_name" class="box" placeholder="eg. Google Inc."><br><br>
+        <label for="location">Location(City):</label>
+        <input type="text" name="location" id="location" placeholder="eg. Chennai">
+        <br><br><br>
+        <input type="submit" value="Submit" class="button">
+
+
+    </form>
+</body>
+
+</html>
